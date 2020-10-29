@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Areas">
+
+    <Spinner
+        android:id="@+id/area_sp_shapes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/shapes" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/area_et_rectangle_width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/area_et_rectangle_width"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/area_et_rectangle_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/area_et_rectangle_height"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/area_et_circle_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/area_et_circle_radius"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/area_et_triangle_base"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/area_et_triangle_base"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/area_et_triangle_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/area_et_triangle_height"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/area_btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/area_btn_calculate"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/area_tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+</LinearLayout>

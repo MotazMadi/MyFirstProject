@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="area_et_rectangle_width">عرض</string>
+    <string name="area_et_rectangle_height">طول </string>
+    <string name="area_et_circle_radius">نصف قطر</string>
+    <string name="area_et_triangle_base">قاعدة </string>
+    <string name="area_et_triangle_height">ارتفاع</string>
+    <string name="area_btn_calculate">حساب</string>
+
+
+    <string-array name="shapes">
+        <item>اخترالشكل</item>
+        <item>المستطيل</item>
+        <item>الدائرة</item>
+        <item>المثلث</item>
+    </string-array>
+
+
+</resources>

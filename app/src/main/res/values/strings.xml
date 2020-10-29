@@ -1,0 +1,21 @@
+<resources>
+
+    <resources>
+        <string name="area_et_rectangle_width">width </string>
+        <string name="area_et_rectangle_height">height </string>
+        <string name="area_et_circle_radius">radius </string>
+        <string name="area_et_triangle_base">base </string>
+        <string name="area_et_triangle_height">height</string>
+        <string name="area_btn_calculate">calculate</string>
+
+        <string-array name="shapes">
+            <item>select shapes</item>
+            <item>rectangle</item>
+            <item>circle</item>
+            <item>triangle</item>
+        </string-array>
+
+
+    </resources>
+
+</resources>
